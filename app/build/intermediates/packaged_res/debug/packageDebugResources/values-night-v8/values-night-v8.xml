@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccentNight">#03DAC5</color>
+    <color name="colorPrimaryDarkNight">#3700B3</color>
+    <color name="colorPrimaryNight">#BB86FC</color>
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        
+        <item name="colorPrimary">@color/colorPrimaryNight</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkNight</item>
+        <item name="colorAccent">@color/colorAccentNight</item>
+        <item name="backgroundColor">@color/LightGray</item>
+    </style>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryNight">#BB86FC</color>  <!-- 夜间模式主要颜色 -->
+    <color name="colorPrimaryDarkNight">#3700B3</color> <!-- 夜间模式顶部栏颜色 -->
+    <color name="colorAccentNight">#03DAC5</color>    <!-- 夜间模式强调颜色 -->
+</resources>
+
+
+
+
+

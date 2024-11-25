@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF6200EE</color>  <!-- 主要颜色 -->
+    <color name="colorPrimaryDark">#9B4DFF</color> <!-- 顶部栏颜色 -->
+    <color name="colorAccent">#FF03DAC5</color>   <!-- 强调颜色 -->
+</resources>
+
+
+
+

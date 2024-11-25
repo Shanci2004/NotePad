@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/search_view_border.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@android:color/darker_gray" /> <!-- 内部填充颜色 -->
+    <stroke
+        android:width="2dp"
+        android:color="#FF6200EE" /> <!-- 边框颜色和宽度 -->
+    <corners android:radius="8dp" /> <!-- 圆角半径 -->
+</shape>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/noteList_layout">
+
+    <!-- 主内容布局 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/LightGray"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"/>
+
+        <androidx.appcompat.widget.SearchView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Search" />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@android:id/list" />
+    </LinearLayout>
+
+    <!-- 浮动按钮部分 -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/mainFab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="16dp"
+            android:src="@drawable/ic_menu_more"
+            android:tint="@android:color/white"
+            app:backgroundTint="@android:color/holo_blue_light" />
+
+        <!-- 子按钮容器 -->
+        <LinearLayout
+            android:id="@+id/subMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="16dp"
+            android:scaleX="0"
+            android:scaleY="0"
+            android:visibility="gone">
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fabOption_add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_menu_add"
+                android:tint="@android:color/white"
+                android:layout_marginBottom="10dp"
+                app:backgroundTint="@android:color/holo_green_light" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fabOption_paste"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_menu_paste"
+                android:tint="@android:color/white"
+                android:layout_marginBottom="10dp"
+                app:backgroundTint="@android:color/holo_green_dark" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fabOption_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_menu_background"
+                android:tint="@android:color/white"
+                android:layout_marginBottom="70dp"
+                app:backgroundTint="@android:color/holo_orange_light" />
+        </LinearLayout>
+
+        <!-- 单独的颜色菜单 -->
+        <LinearLayout
+            android:id="@+id/colorMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="bottom|end"
+            android:layout_marginEnd="80dp"
+            android:layout_marginBottom="86dp"
+            android:scaleX="0"
+            android:scaleY="0"
+            android:visibility="gone">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/colorButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:backgroundTint="#A8E6CF"
+            android:tint="@android:color/white"
+            app:elevation="2dp"/>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/colorButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:backgroundTint="#FFD3B6"
+            android:tint="@android:color/white"
+            app:elevation="2dp"/>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/colorButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:backgroundTint="#D4C5F9"
+            android:tint="@android:color/white"
+            app:elevation="2dp"/>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/colorButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:backgroundTint="#ECEFF1"
+            android:tint="@android:color/white"
+            app:elevation="2dp"/>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/colorButton5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:backgroundTint="#FFFFFF"
+            android:tint="@android:color/white"
+            app:elevation="2dp"/>
+    </LinearLayout>
+
+</FrameLayout>
+</FrameLayout>
+

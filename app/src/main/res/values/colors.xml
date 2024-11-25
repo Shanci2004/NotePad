@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="White">#FFFFFF</color>
+    <color name="LightGray">#D3D3D3</color>
+    <color name="tagColor">#FF4081</color>
+    <color name="Yellow">#FFFF00</color>
+</resources>

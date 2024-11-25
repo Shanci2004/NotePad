@@ -1,0 +1,130 @@
+[
+    {
+        "merged": "D:\\Android\\gradle\\daemon\\8.7\\com.example.android.notepad.app-debug-4:\\drawable-hdpi_ic_menu_delete.png.flat",
+        "source": "D:\\Android\\gradle\\daemon\\8.7\\com.example.android.notepad.app-main-6:\\drawable-hdpi\\ic_menu_delete.png"
+    },
+    {
+        "merged": "D:\\Android\\gradle\\daemon\\8.7\\com.example.android.notepad.app-debug-4:\\drawable-ldpi_live_folder_notes.png.flat",
+        "source": "D:\\Android\\gradle\\daemon\\8.7\\com.example.android.notepad.app-main-6:\\drawable-ldpi\\live_folder_notes.png"
+    },
+    {
+        "merged": "D:\\Android\\gradle\\daemon\\8.7\\com.example.android.notepad.app-debug-4:\\drawable-ldpi_app_notes.png.flat",
+        "source": "D:\\Android\\gradle\\daemon\\8.7\\com.example.android.notepad.app-main-6:\\drawable-ldpi\\app_notes.png"
+    },
+    {
+        "merged": "D:\\Android\\gradle\\daemon\\8.7\\com.example.android.notepad.app-debug-4:\\drawable_ic_mode_day.png.flat",
+        "source": "D:\\Android\\gradle\\daemon\\8.7\\com.example.android.notepad.app-main-6:\\drawable\\ic_mode_day.png"
+    },
+    {
+        "merged": "D:\\Android\\gradle\\daemon\\8.7\\com.example.android.notepad.app-debug-4:\\drawable_ic_menu_delete.png.flat",
+        "source": "D:\\Android\\gradle\\daemon\\8.7\\com.example.android.notepad.app-main-6:\\drawable\\ic_menu_delete.png"
+    },
+    {
+        "merged": "D:\\Android\\gradle\\daemon\\8.7\\com.example.android.notepad.app-debug-4:\\drawable_ic_menu_compose.png.flat",
+        "source": "D:\\Android\\gradle\\daemon\\8.7\\com.example.android.notepad.app-main-6:\\drawable\\ic_menu_compose.png"
+    },
+    {
+        "merged": "D:\\Android\\gradle\\daemon\\8.7\\com.example.android.notepad.app-debug-4:\\drawable-hdpi_live_folder_notes.png.flat",
+        "source": "D:\\Android\\gradle\\daemon\\8.7\\com.example.android.notepad.app-main-6:\\drawable-hdpi\\live_folder_notes.png"
+    },
+    {
+        "merged": "D:\\Android\\gradle\\daemon\\8.7\\com.example.android.notepad.app-debug-4:\\drawable-hdpi_app_notes.png.flat",
+        "source": "D:\\Android\\gradle\\daemon\\8.7\\com.example.android.notepad.app-main-6:\\drawable-hdpi\\app_notes.png"
+    },
+    {
+        "merged": "D:\\Android\\gradle\\daemon\\8.7\\com.example.android.notepad.app-debug-4:\\drawable-hdpi_ic_menu_revert.png.flat",
+        "source": "D:\\Android\\gradle\\daemon\\8.7\\com.example.android.notepad.app-main-6:\\drawable-hdpi\\ic_menu_revert.png"
+    },
+    {
+        "merged": "D:\\Android\\gradle\\daemon\\8.7\\com.example.android.notepad.app-debug-4:\\drawable-hdpi_ic_menu_save.png.flat",
+        "source": "D:\\Android\\gradle\\daemon\\8.7\\com.example.android.notepad.app-main-6:\\drawable-hdpi\\ic_menu_save.png"
+    },
+    {
+        "merged": "D:\\Android\\gradle\\daemon\\8.7\\com.example.android.notepad.app-debug-4:\\drawable_app_notes.png.flat",
+        "source": "D:\\Android\\gradle\\daemon\\8.7\\com.example.android.notepad.app-main-6:\\drawable\\app_notes.png"
+    },
+    {
+        "merged": "D:\\Android\\gradle\\daemon\\8.7\\com.example.android.notepad.app-debug-4:\\menu_list_options_menu.xml.flat",
+        "source": "D:\\Android\\gradle\\daemon\\8.7\\com.example.android.notepad.app-main-6:\\menu\\list_options_menu.xml"
+    },
+    {
+        "merged": "D:\\Android\\gradle\\daemon\\8.7\\com.example.android.notepad.app-debug-4:\\layout_noteslist_layout.xml.flat",
+        "source": "D:\\Android\\gradle\\daemon\\8.7\\com.example.android.notepad.app-main-6:\\layout\\noteslist_layout.xml"
+    },
+    {
+        "merged": "D:\\Android\\gradle\\daemon\\8.7\\com.example.android.notepad.app-debug-4:\\menu_editor_options_menu.xml.flat",
+        "source": "D:\\Android\\gradle\\daemon\\8.7\\com.example.android.notepad.app-main-6:\\menu\\editor_options_menu.xml"
+    },
+    {
+        "merged": "D:\\Android\\gradle\\daemon\\8.7\\com.example.android.notepad.app-debug-4:\\drawable_ic_mode_night.png.flat",
+        "source": "D:\\Android\\gradle\\daemon\\8.7\\com.example.android.notepad.app-main-6:\\drawable\\ic_mode_night.png"
+    },
+    {
+        "merged": "D:\\Android\\gradle\\daemon\\8.7\\com.example.android.notepad.app-debug-4:\\layout_note_editor.xml.flat",
+        "source": "D:\\Android\\gradle\\daemon\\8.7\\com.example.android.notepad.app-main-6:\\layout\\note_editor.xml"
+    },
+    {
+        "merged": "D:\\Android\\gradle\\daemon\\8.7\\com.example.android.notepad.app-debug-4:\\layout_title_editor.xml.flat",
+        "source": "D:\\Android\\gradle\\daemon\\8.7\\com.example.android.notepad.app-main-6:\\layout\\title_editor.xml"
+    },
+    {
+        "merged": "D:\\Android\\gradle\\daemon\\8.7\\com.example.android.notepad.app-debug-4:\\menu_list_context_menu.xml.flat",
+        "source": "D:\\Android\\gradle\\daemon\\8.7\\com.example.android.notepad.app-main-6:\\menu\\list_context_menu.xml"
+    },
+    {
+        "merged": "D:\\Android\\gradle\\daemon\\8.7\\com.example.android.notepad.app-debug-4:\\drawable_ic_menu_revert.png.flat",
+        "source": "D:\\Android\\gradle\\daemon\\8.7\\com.example.android.notepad.app-main-6:\\drawable\\ic_menu_revert.png"
+    },
+    {
+        "merged": "D:\\Android\\gradle\\daemon\\8.7\\com.example.android.notepad.app-debug-4:\\drawable_ic_menu_save.png.flat",
+        "source": "D:\\Android\\gradle\\daemon\\8.7\\com.example.android.notepad.app-main-6:\\drawable\\ic_menu_save.png"
+    },
+    {
+        "merged": "D:\\Android\\gradle\\daemon\\8.7\\com.example.android.notepad.app-debug-4:\\drawable_live_folder_notes.png.flat",
+        "source": "D:\\Android\\gradle\\daemon\\8.7\\com.example.android.notepad.app-main-6:\\drawable\\live_folder_notes.png"
+    },
+    {
+        "merged": "D:\\Android\\gradle\\daemon\\8.7\\com.example.android.notepad.app-debug-4:\\drawable-hdpi_ic_menu_compose.png.flat",
+        "source": "D:\\Android\\gradle\\daemon\\8.7\\com.example.android.notepad.app-main-6:\\drawable-hdpi\\ic_menu_compose.png"
+    },
+    {
+        "merged": "D:\\Android\\gradle\\daemon\\8.7\\com.example.android.notepad.app-debug-4:\\drawable_ic_menu_background.png.flat",
+        "source": "D:\\Android\\gradle\\daemon\\8.7\\com.example.android.notepad.app-main-6:\\drawable\\ic_menu_background.png"
+    },
+    {
+        "merged": "com.example.android.notepad.app-debug-4:/layout_noteslist_layout.xml.flat",
+        "source": "com.example.android.notepad.app-main-6:/layout/noteslist_layout.xml"
+    },
+    {
+        "merged": "D:\\Android\\gradle\\daemon\\8.7\\com.example.android.notepad.app-debug-4:\\drawable_search_view_border.xml.flat",
+        "source": "D:\\Android\\gradle\\daemon\\8.7\\com.example.android.notepad.app-main-6:\\drawable\\search_view_border.xml"
+    },
+    {
+        "merged": "D:\\Android\\gradle\\daemon\\8.7\\com.example.android.notepad.app-debug-4:\\drawable_ic_menu_more.png.flat",
+        "source": "D:\\Android\\gradle\\daemon\\8.7\\com.example.android.notepad.app-main-6:\\drawable\\ic_menu_more.png"
+    },
+    {
+        "merged": "D:\\Android\\gradle\\daemon\\8.7\\com.example.android.notepad.app-debug-4:\\drawable_ic_menu_paste.png.flat",
+        "source": "D:\\Android\\gradle\\daemon\\8.7\\com.example.android.notepad.app-main-6:\\drawable\\ic_menu_paste.png"
+    },
+    {
+        "merged": "D:\\Android\\gradle\\daemon\\8.7\\com.example.android.notepad.app-debug-4:\\drawable_ic_menu_search.png.flat",
+        "source": "D:\\Android\\gradle\\daemon\\8.7\\com.example.android.notepad.app-main-6:\\drawable\\ic_menu_search.png"
+    },
+    {
+        "merged": "D:\\Android\\gradle\\daemon\\8.7\\com.example.android.notepad.app-debug-4:\\drawable-hdpi_ic_menu_edit.png.flat",
+        "source": "D:\\Android\\gradle\\daemon\\8.7\\com.example.android.notepad.app-main-6:\\drawable-hdpi\\ic_menu_edit.png"
+    },
+    {
+        "merged": "D:\\Android\\gradle\\daemon\\8.7\\com.example.android.notepad.app-debug-4:\\drawable_ic_menu_edit.png.flat",
+        "source": "D:\\Android\\gradle\\daemon\\8.7\\com.example.android.notepad.app-main-6:\\drawable\\ic_menu_edit.png"
+    },
+    {
+        "merged": "D:\\Android\\gradle\\daemon\\8.7\\com.example.android.notepad.app-debug-4:\\layout_noteslist_item.xml.flat",
+        "source": "D:\\Android\\gradle\\daemon\\8.7\\com.example.android.notepad.app-main-6:\\layout\\noteslist_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\gradle\\daemon\\8.7\\com.example.android.notepad.app-debug-4:\\drawable_ic_menu_add.png.flat",
+        "source": "D:\\Android\\gradle\\daemon\\8.7\\com.example.android.notepad.app-main-6:\\drawable\\ic_menu_add.png"
+    }
+]
