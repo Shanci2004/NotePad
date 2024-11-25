@@ -264,6 +264,7 @@ public class NotesList extends ListActivity {
             findViewById(buttonIds[i]).setOnClickListener(v -> {
                 // 设置背景颜色
                 lv_notesList.setBackgroundColor(color);
+                searchView.setBackgroundColor(color);
 
                 // 保存背景颜色到 SharedPreferences
                 saveBackgroundColor(color);
@@ -288,6 +289,7 @@ public class NotesList extends ListActivity {
         SharedPreferences preferences = getSharedPreferences("app_preferences", MODE_PRIVATE);
         int savedColor = preferences.getInt("background_color", Color.WHITE); // 默认白色
         lv_notesList.setBackgroundColor(savedColor);
+        searchView.setBackgroundColor(savedColor);
     }
 
     @Override
