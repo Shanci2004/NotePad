@@ -30,7 +30,9 @@ int[] viewIDs = { android.R.id.text1, R.id.modified_date};
 ```
 #### (3)存在问题：时间戳显示并非年月日时分秒，而是毫秒数
 由于Notes表格中存入的是System.currentTimeMillis()，显示的是一串长数字（如下图），代表从1970年1月1日开始计算的总毫秒数。
+
 ![image](images/1.png)
+
 为了直观看到笔记编辑的条目时间，我们追寻到创建和编辑笔记时，在何时添加的修改时间，因此我们在NoteEditor中寻找代码逻辑，最终发现在NoteEditor中，不论是`mState == STATE_EDIT`还是`mState == STATE_INSERT`都会调用updateNote方法，在updateNote方法中，下列代码存入了当前时间的系统时间毫秒数
 ```
 ContentValues values = new ContentValues();
@@ -46,6 +48,7 @@ values.put(NotePad.Notes.COLUMN_NAME_MODIFICATION_DATE, formattedDate);
 ```
 ### 结果
 最终实现时间戳的显示为"yyyy-MM-dd HH:mm:ss"格式
+
 ![image](images/3.png)
 ## 二 添加笔记查询功能（按照标题查询）
 ### 1、首先在NotesList的布局中添加一个SearchView
@@ -67,6 +70,7 @@ values.put(NotePad.Notes.COLUMN_NAME_MODIFICATION_DATE, formattedDate);
 ```
 ##### 仍存在问题二：启动app仍然会报错闪退
 **发现原因** 根据LogCat的报错发现，SearchView并不支持AppCompat或Material以外的主题。
+
 **解决** 因此，在AndroidManifest.xml文件中，添加theme
 ```
 <application
@@ -148,5 +152,8 @@ if (cursor != null) {
 ```
 ### 结果
 最终实现查询，可以进行模糊查询，也可以精准查询。
+模糊查询
 ![image](images/7.png)
+精准查询
+![image](images/6.png)
 ## 三 笔记分类添加标签
