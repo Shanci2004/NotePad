@@ -82,6 +82,7 @@ public class NotePadProvider extends ContentProvider implements PipeDataWriter<C
             NotePad.Notes._ID,               // Projection position 0, the note's id
             NotePad.Notes.COLUMN_NAME_NOTE,  // Projection position 1, the note's content
             NotePad.Notes.COLUMN_NAME_TITLE, // Projection position 2, the note's title
+            NotePad.Notes.COLUMN_NAME_TAG, // Projection position 3, the note's tag
     };
     private static final int READ_NOTE_NOTE_INDEX = 1;
     private static final int READ_NOTE_TITLE_INDEX = 2;
@@ -240,32 +241,6 @@ public class NotePadProvider extends ContentProvider implements PipeDataWriter<C
        // Creates a new helper object. Note that the database itself isn't opened until
        // something tries to access it, and it's only created if it doesn't already exist.
        mOpenHelper = new DatabaseHelper(getContext());
-       /**
-        * 查询Tag列是否存在  调试用
-       SQLiteDatabase db = mOpenHelper.getReadableDatabase();
-       Cursor cursor = db.query(
-               NotePad.Notes.TABLE_NAME,
-               new String[] {
-                       NotePad.Notes._ID,
-                       NotePad.Notes.COLUMN_NAME_TITLE,
-                       NotePad.Notes.COLUMN_NAME_NOTE,
-                       NotePad.Notes.COLUMN_NAME_TAG, // 确保这个列存在
-                       NotePad.Notes.COLUMN_NAME_MODIFICATION_DATE
-               },
-               null, null, null, null, null);
-
-       // 确保查询正确返回数据
-       if (cursor != null && cursor.moveToFirst()) {
-           // Log each column index to verify they exist
-           int titleIndex = cursor.getColumnIndex(NotePad.Notes.COLUMN_NAME_TITLE);
-           int noteIndex = cursor.getColumnIndex(NotePad.Notes.COLUMN_NAME_NOTE);
-           int tagIndex = cursor.getColumnIndex(NotePad.Notes.COLUMN_NAME_TAG);
-
-           Log.d("Database", "Title Index: " + titleIndex);
-           Log.d("Database", "Note Index: " + noteIndex);
-           Log.d("Database", "Tag Index: " + tagIndex);
-       }
-        **/
        // Assumes that any failures will be reported by a thrown exception.
        return true;
    }
