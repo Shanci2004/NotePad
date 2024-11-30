@@ -241,6 +241,8 @@ ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(
 adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 tagSpinner.setAdapter(adapter);
 ```
+效果：在编辑note页可以选择tag
+![image](images/20.png)
 ##### 将spinner选择的标签和其它数据一起包装添加到数据库中
 
 在onPause()中，对数据进行包装，调用updateNote()函数，在这里对updateNote()函数进行更改，加入tag的数据，一起存入数据库
@@ -263,6 +265,7 @@ updateNote(text, tittle, selectedTag);
 ```
 values.put(NotePad.Notes.COLUMN_NAME_TAG, selectedTag);
 ```
+
 
 #### 结果
 启动app后，通过App Inspection中的Database Inspector我们可以直观看到数据库notes表内有tag列
